@@ -1,0 +1,86 @@
+* {
+    margin : 0;
+    padding : 0;
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center ;
+    background-color: #132440;
+    color: #FDB5CE;
+    height : 4rem;
+    line-height : 4rem;
+}
+
+.choice{
+    height : 40 vmin;
+    width : 50 vmin;
+    /* border-radius: 50%;
+    display :flex;
+    align-items: center;
+    justify-content: center; */
+}
+.choice:hover{
+    background-color: #000000;
+    cursor: pointer;
+    opacity: .7;
+}
+#hello{
+    height : 10vmin;
+    width : 10vmin;
+    object-fit: cover ;
+    background-color: #132440;
+}
+
+.head{
+    align-items: center;
+    display :flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    gap : 10vmin;
+    background-color: #132440;
+}
+img{
+    height : 40 vmin;
+    width : 50 vmin;
+    object-fit: cover;
+}
+.choices{
+    align-items: center;
+    display :flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    gap : 10vmin;
+    margin-top : 10vmin;
+}
+
+.score-board{
+    font-size: 4vmin;
+    align-items: center;
+    text-align: center;
+    display :flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    gap : 7vmin;
+    margin-top : 10vmin;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.msg-container{
+    margin: 5vmin;
+    align-items: center;
+    text-align: center;
+}
+
+#msg{
+    background-color: #FDB5CE;
+    display : inline;
+    font-size: 25pt;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-radius : 2rem;
+    padding : 1rem;
+}
+#your-score,
+#comp-score{
+    font-size: 30pt;
+}
